@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.text-hover:hover{
+  color: blue;
+}
+.footer-bg{
+   background-color: rgb(216, 212, 212);
+}
+.home-title{
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-primary{
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+.card-title{
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.font-light{
+  font-weight: 400;
+  color: #a1a1a1;
+  font-size: 16px;
+}
+.font-small{
+  font-size: 14px;
+  font-weight: 400;
+}
+.featu2{
+  background-color: #f8f9fa!important;
+}
+
+.service-icon1{
+  background-color: #6fe7dd;
+}
+.service-icon2{
+  background-color: #ffc93c;
+}
