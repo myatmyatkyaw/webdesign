@@ -5,11 +5,11 @@ import Image1 from './wimg1.svg'
 export default function home() {
   return (
     <>
-      <div className='row m-5'>
+      <div className='row m-5 pt-5'>
         <div className='col-md-5 mt-2 ps-5'>
             <div className='card-body '>
             
-                <h1 className='home-title card-title fw-bold'>
+                <h1 className='home-title fw-bold'>
                 Promote Your Products by Colorlib
                 </h1>
                 <div className='card-text mb-4'>
@@ -18,8 +18,10 @@ export default function home() {
                  Consonantia, there live the blind texts. Separated they live 
                  in Bookmarksgrove right at the coast
                 </div>
-                <a href="#" class="btn btn-primary rounded-pill me-1 ">SEE FEATURES</a>
-                <a href="#" class="btn btn-outline-primary rounded-pill ">PRICING</a>
+                <div className='d-md-flex '>
+                <a href="#" class="btn btn-primary rounded-pill me-1 mt-3 p-3 fw-bold" style={{ width:150 , height:50, fontSize:11}}>SEE FEATURES</a>
+                <a href="#" class="btn btn-outline-primary rounded-pill mt-3 p-3 fw-bold" style={{ width:120 , fontSize:11}}>PRICING</a>
+                </div>
             </div>
         </div>
         <div className='col-md-7'>

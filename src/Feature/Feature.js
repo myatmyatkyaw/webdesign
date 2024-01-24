@@ -1,15 +1,17 @@
 import React from 'react'
 import Image3 from './person1.webp'
 import Image4 from './wimg2.webp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 export default function Feature() {
   return (
-    <>
-      <div className='row m-5'>
-      <div className='col-md-5 ps-5'>
-            <div className='card-body'>
+    <div id='features'>
+      <div className='row m-5 p-5'>
+      <div className='col-md-5 pe-5'>
+            <div className='card-body pe-5'>
                 <div className='text-primary'>DIGITAL SERVICES</div>
-                <h3 className='card-title mt-0 mb-3'>
+                <h3 className='text-title mt-0 mb-3'>
                 Selling Digital Services
                 </h3>
                 <div className='card-text font-light'>
@@ -19,12 +21,12 @@ export default function Feature() {
                 in Bookmarksgrove right at the coast
                 </div> 
                 <div className='mt-3 font-light'>
-                <p>There live the blind texts</p>
-                <p>Far far away behind the word</p>
+                <p><FontAwesomeIcon icon={faCheck} className='text-primary me-2'/>There live the blind texts</p>
+                <p><FontAwesomeIcon icon={faCheck} className='text-primary me-2'/>Far far away behind the word</p>
                 </div>
                 <div className='fst-italic mb-3'>
-                    “Separated they live in Bookmarksgrove 
-                    right at the coast of the Semantics,
+                    “Separated they <span className='text-bg'>live in Bookmarksgrove 
+                        right at the coast of the Semantics,</span>
                      a large language ocean. A small river named Duden 
                      flows by their place and supplies it with the necessary regelialia. ”
                 </div>
@@ -45,6 +47,6 @@ export default function Feature() {
             </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

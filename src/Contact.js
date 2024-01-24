@@ -1,48 +1,54 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
   return (
-    <>
+    <div id='contact'>
       <div className='text-center fw-light'>
-        <h2>Get In Touch</h2>
+        <h2 className='mt-5 pt-5'>Get In Touch</h2>
         <p>Far from the countries Vokalia and Consonantia</p>
       </div>
 
         <div className='row m-5'>
-            <div className='col-md-7'>
+            <div className='col-md-7 pe-5'>
                 <div className="row g-3">
-                <div class="col">
-                    <label>First name</label>
-                    <input type="text" class="form-control" aria-label="First name"></input>
+                <div class="form-group col">
+                    <label className='font-light'>First name</label>
+                    <input type="text" className="form-control border-dark border-0 border-bottom p-2 rounded-0" aria-label="First name"></input>
                 </div>
                 <div class="col">
-                    <label>Last Name</label>
-                    <input type="text" class="form-control" aria-label="Last name"></input>
+                    <label className='font-light'>Last Name</label>
+                    <input type="text" class="form-control border-dark border-0 border-bottom p-2 rounded-0" aria-label="Last name"></input>
                 </div>
                 <div>
-                    <label>Email address</label>
-                    <input type="email" className='form-control'></input>
+                    <label className='font-light'>Email address</label>
+                    <input type="email" className='form-control border-dark border-0 border-bottom p-2 rounded-0'></input>
                 </div>
                 <div>
-                    <label>Message</label>
-                    <textarea type="text" className='form-control'></textarea>
+                    <label className='font-light'>Message</label>
+                    <textarea type="text" className='form-control border-0 border-dark border-bottom p-2 rounded-0'></textarea>
                 </div>
                 <div>
-                    <a href='#' className='btn btn-primary rounded-5'>Send Message</a>
+                    <a href='#' className='btn btn-primary rounded-5 m-3 p-3' style={{ width:150, height:50,fontSize: 12 }}>Send Message</a>
                 </div>
                 </div>
             </div>
 
-            <div className='col-md-5'>
-                <h6>Contact Info</h6>
-                <p>43 Raymouth Rd. Baltemoer, London 3910</p>
-                <p>+1(123)-456-7890</p>
-                <p>+1(123)-456-7890</p>
-                <p>info@mydomain.com</p>
-                <p>https://Colorlib.com</p>
+            <div className='col-md-5 ps-5'>
+           <h6 className='mb-4'> Contact Info</h6>
+                <p > <FontAwesomeIcon icon={faLocationDot} /> 43 Raymouth Rd. Baltemoer, London 3910</p>
+                <p className='text-hover'> <FontAwesomeIcon icon={faPhone} /> +1(123)-456-7890</p>
+                <p className='text-hover'> <FontAwesomeIcon icon={faPhone} /> +1(123)-456-7890</p>
+                <p className='text-hover'> <FontAwesomeIcon icon={faEnvelope} /> info@mydomain.com</p>
+                <p className='text-hover'> <FontAwesomeIcon icon={faGlobe} /> https://Colorlib.com</p>
             </div>
         </div>
         
-    </>
+    </div>
+    
   )
 }

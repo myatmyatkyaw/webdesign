@@ -27,6 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.navbar{
+  background-color: white;
+}
+.navbar-brand{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -40,12 +48,22 @@
 .text-hover:hover{
   color: blue;
 }
-.footer-bg{
-   background-color: rgb(216, 212, 212);
+footer{
+   background-color: #efefef;
+   color: #888;
+}
+footer a > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .home-title{
   font-size: 60px;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 .text-primary{
   font-family: sans-serif;
@@ -54,6 +72,12 @@
 }
 .card-title{
   font-weight: 500;
+  font-family: sans-serif;
+}
+.text-title{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
   font-family: sans-serif;
 }
 .font-light{
@@ -67,6 +91,7 @@
 }
 .featu2{
   background-color: #f8f9fa!important;
+  padding: 50px 0px;
 }
 
 .service-icon1{
@@ -74,4 +99,68 @@
 }
 .service-icon2{
   background-color: #ffc93c;
+}
+.service-icon3{
+  background-color: #f73859;
+}
+.service-icon4{
+  background-color: #407BFF;
+}
+.p2card-title{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.price{
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.price-title{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+.form-control input{
+  border: none;
+  border-bottom: 1px solid #43434d;
+  background: transparent;
+    
+    border-radius: 0;
+    color: #000000;
+}
+.form-group{
+  margin-bottom: 1rem;
+}
+footer a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: #777;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.icon{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-bg{
+  display: inline;
+  background: rgba(64, 123, 255, 0.07);
+}
+.btn1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .05rem;
+}
+.transparent-card {
+  background-color: rgba(255, 255, 255, 0); /* Adjust the last value (0.5) for transparency level (0 to 1) */
 }
