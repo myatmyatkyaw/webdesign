@@ -5,16 +5,16 @@ export default function Pricing2() {
     <>
      
        <div className='text-center fw-light mb-5 pb-5'>
-        <h2 className='card-title pt-5 mt-5 mb-2'>Advantage of using our products</h2>
-        <p className='font-light'>Far from the countries Vokalia and Consonantia</p>
+        <h2 className='card-title pt-5 mt-5 mb-2' data-aos="fade-up" data-aos-once="true">Advantage of using our products</h2>
+        <p className='font-light' data-aos="fade-up" data-aos-once="true" data-aos-delay="100">Far from the countries Vokalia and Consonantia</p>
       </div>
 
-<div className='col-md-10 mx-auto mt-5 mb-5  pb-5'>
+<div className='col-md-10 mx-auto mt-5 mb-5 pb-5'>
       <div className='row ms-6 '>
         <div className='col-md-6 '>
-          <div className='card card-body border-0 '>
-          <div className='row '>
-                <div className='col-md-1'>
+          <div className='card card-body border-0 ' data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+          <div className='row d-flex justify-content-center'>
+                <div className='col-md-1 mb-4'>
                 <div class="service-icon1 text-light rounded-4 fs-5 text-center ms-2" style={{ width: 40, height:40 }}>
                         <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"></path>
@@ -23,10 +23,10 @@ export default function Pricing2() {
                     </div>
                 </div>
                 <div className='col-md-11'> 
-                        <h3 className='p2card-title ms-4'>Grow Your Business</h3>
-                    <p className='card-text font-light ms-4'>Far far away, behind the mountains, far from the countries Vokalia and
+                        <h3 className='p2card-title ms-3'>Grow Your Business</h3>
+                    <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
-                        <a href='#' className='ms-4'>Learn More</a>
+                        <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
             </div> 
@@ -34,9 +34,9 @@ export default function Pricing2() {
         </div>
 
         <div className='col-md-6 '>
-          <div className='card card-body border-0'>
+          <div className='card card-body border-0' data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
           <div className='row '>
-                <div className='col-md-1'>
+                <div className='col-md-1 mb-4'>
                 <div class="service-icon2 text-light rounded-4 fs-5 text-center ms-2" style={{ width: 40, height:40 }}>
                     <svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z"></path>
@@ -45,10 +45,10 @@ export default function Pricing2() {
                 </div>
                 </div>
                 <div className='col-md-11'> 
-                        <h3 className='p2card-title ms-4'>Build Products</h3>
-                    <p className='card-text font-light ms-4'>Far far away, behind the mountains, far from the countries Vokalia and
+                        <h3 className='p2card-title ms-3'>Build Products</h3>
+                    <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
-                        <a href='#' className='ms-4'>Learn More</a>
+                        <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
             </div> 
@@ -56,9 +56,9 @@ export default function Pricing2() {
         </div>
 
         <div className='col-md-6 '>
-          <div className='card card-body border-0'>
+          <div className='card card-body border-0' data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
           <div className='row '>
-                <div className='col-md-1'>
+                <div className='col-md-1 mb-4'>
                 <div class="service-icon3 text-light rounded-4 fs-5 text-center ms-2" style={{ width: 40, height:40 }}>
                     <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"></path>
@@ -67,10 +67,10 @@ export default function Pricing2() {
                     </div>
                 </div>
                 <div className='col-md-11'> 
-                        <h3 className='p2card-title ms-4'>Success Every Day</h3>
-                    <p className='card-text font-light ms-4'>Far far away, behind the mountains, far from the countries Vokalia and
+                        <h3 className='p2card-title ms-3'>Success Every Day</h3>
+                    <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
-                        <a href='#' className='ms-4'>Learn More</a>
+                        <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
             </div> 
@@ -78,20 +78,20 @@ export default function Pricing2() {
         </div>
 
         <div className='col-md-6 '>
-          <div className='card card-body border-0'>
+          <div className='card card-body border-0' data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
           <div className='row '>
-                <div className='col-md-1'>
-                <div class="service-icon4 text-light rounded-4 fs-5 text-center" style={{ width: 40, height:40 }}>
+                <div className='col-md-1 mb-4'>
+                <div class="service-icon4 text-light rounded-4 fs-5 text-center ms-2" style={{ width: 40, height:40 }}>
                     <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"></path>
                     </svg>
                     </div>
                 </div>
                 <div className='col-md-11'> 
-                        <h3 className='p2card-title ms-4'>Bring Ideas to Life</h3>
-                    <p className='card-text font-light ms-4'>Far far away, behind the mountains, far from the countries Vokalia and
+                        <h3 className='p2card-title ms-3'>Bring Ideas to Life</h3>
+                    <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
-                        <a href='#' className='ms-4'>Learn More</a>
+                        <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
             </div> 

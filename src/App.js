@@ -12,15 +12,25 @@ import Pricing2 from './Pricing/Pricing2';
 import Pricing3 from './Pricing/Pricing3';
 import About2 from './About/About2';
 
+import React, {useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000, // Animation duration
+      offset: 200,    // Offset (in pixels) from the top of the document
+    });
+  }, []);
   return (
     <>
      <Header />
      <Home />
      <Feature />
-     <Feature2/>
-     <Feature3/>
+    <Feature2/>
+    <Feature3/>
      <Pricing />
      <Pricing2/>
      <Pricing3/>

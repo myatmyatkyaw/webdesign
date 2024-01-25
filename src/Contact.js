@@ -9,12 +9,12 @@ export default function Contact() {
   return (
     <div id='contact'>
       <div className='text-center fw-light'>
-        <h2 className='mt-5 pt-5'>Get In Touch</h2>
-        <p>Far from the countries Vokalia and Consonantia</p>
+        <h2 className='mt-5 pt-5' data-aos="fade-up" data-aos-once="true">Get In Touch</h2>
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="100">Far from the countries Vokalia and Consonantia</p>
       </div>
 
         <div className='row m-5'>
-            <div className='col-md-7 pe-5'>
+            <div className='col-md-7 pe-5' data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
                 <div className="row g-3">
                 <div class="form-group col">
                     <label className='font-light'>First name</label>
@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
             </div>
 
-            <div className='col-md-5 ps-5'>
+            <div className='col-md-5 ps-5' data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
            <h6 className='mb-4'> Contact Info</h6>
                 <p > <FontAwesomeIcon icon={faLocationDot} /> 43 Raymouth Rd. Baltemoer, London 3910</p>
                 <p className='text-hover'> <FontAwesomeIcon icon={faPhone} /> +1(123)-456-7890</p>

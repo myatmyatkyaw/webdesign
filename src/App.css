@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +12,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,17 +26,17 @@
   margin-left: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .text-hover:hover{
   color: blue;
+}
+.card1:hover{
+  transform: scale(1.95);
+box-shadow: 0 5px 10px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+margin-bottom: 20px;
+margin-top: -20px;
+}
+.feature:hover{
+  background-color: white;
 }
 footer{
    background-color: #efefef;
@@ -162,5 +152,8 @@ footer a{
   letter-spacing: .05rem;
 }
 .transparent-card {
-  background-color: rgba(255, 255, 255, 0); /* Adjust the last value (0.5) for transparency level (0 to 1) */
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Adjust the last value (0.5) for transparency level (0 to 1) */
+}
+body{
+  overflow-x: hidden;
 }

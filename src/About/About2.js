@@ -9,16 +9,16 @@ export default function About2() {
   return (
     
     <div className='featu2'>
-      <div className='col-md-10 mx-auto'>
+      <div className='container-fluid col-md-10 mx-auto'>
       <div className='text-center fw-light'>
-        <h2 className='card-title mt-5'>Our News</h2>
-        <p className='font-light'>Far from the countries Vokalia and Consonantia</p>
+        <h2 className='card-title mt-5' data-aos="fade-up" data-aos-once="true">Our News</h2>
+        <p className='font-light' data-aos="fade-up" data-aos-once="true" data-aos-delay="100">Far from the countries Vokalia and Consonantia</p>
       </div>
 
       <div className='row mt-5 mb-5'>
 
-        <div className='col-md-4'>
-            <div className='card card-body border-0' style={{width:350}}>
+        <div className='col-md-4 col-sm-10 mb-4 d-flex justify-content-center'>
+            <div className='card card-body border-0 card1' style={{width:350}} data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
             <div className='row'>
                     <div className='col-md-2 mt-3 ms-3 '>
                     <img src={P1} alt='Image3' className='image-fluid rounded-circle' width={50} height={50}/>
@@ -35,8 +35,8 @@ export default function About2() {
            
         </div>
 
-        <div className='col-md-4'>
-            <div className='card card-body border-0' style={{width:350}}>
+        <div className='col-md-4 col-sm-10 mb-4 d-flex justify-content-center'>
+            <div className='card card-body border-0 card1' style={{width:350}} data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <div className='row'>
                     <div className='col-md-2 mt-3 ms-3 me-3'>
                     <img src={P3} alt='Image3' className='image-fluid rounded-circle' width={50} height={50}/>
@@ -52,8 +52,8 @@ export default function About2() {
             </div>
         </div>
 
-        <div className='col-md-4'>
-            <div className='card card-body border-0' style={{width:350}}>
+        <div className='col-md-4 col-sm-10 mb-4 d-flex justify-content-center'>
+            <div className='card card-body border-0 card1' style={{width:350}} data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
             <div className='row'>
                     <div className='col-md-2 mt-3 ms-3 me-3'>
                     <img src={P2} alt='Image3' className='image-fluid rounded-circle' width={50} height={50}/>

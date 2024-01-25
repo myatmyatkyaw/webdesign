@@ -10,9 +10,9 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
   return (
-    <>
-      <footer className='footer-bg' style={{ height:500 }}>
-        <div className='container-fluid mx-auto'>
+    <div className='container-fluid mx-auto'>
+      <footer className='bg-light pb-5' >
+       
             <div className='row mt-5 ms-5 me-5 p-5'>
                 <div className='col-md-5 col-sm-12'>
                     <h6 className='text-dark mb-4'>About Launch.</h6>
@@ -20,7 +20,7 @@ export default function Footer() {
                         far from the countries Vokalia and Consonantia, 
                         there live the blind texts.
                     </p>
-                    <h6 className='mb-4'>Connect</h6>
+                    <h6 className='mb-4 text-dark'>Connect</h6>
                    
                         <a href="#" className='me-1'><span class="icon"> <FontAwesomeIcon icon={faInstagram} />  </span></a>
                         <a href="#" className='me-1'><span class="icon"> <FontAwesomeIcon icon={faTwitter} /></span></a>
@@ -59,8 +59,8 @@ export default function Footer() {
 
             </div>
             <div className='text-center mt-5'>Copyright &copy;2024 All rights reserved | This template is made with <FontAwesomeIcon icon={faHeart} className='text-danger'/> by <span className='text-primary' href='#'>Colorlib</span></div>
-        </div>
+        
       </footer>
-    </>
+    </div>
   )
 }
