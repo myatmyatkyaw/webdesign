@@ -12,7 +12,7 @@ export default function home() {
             <h1 className='home-title fw-bold' data-aos="fade-up">
               Promote Your Products by Colorlib
             </h1>
-            <div className='card-text mb-4' data-aos="fade-up" data-aos-delay="100">
+            <div className='card-text mb-4 order-lg-1 order-2' data-aos="fade-up" data-aos-delay="100" >
               Another cool free html css template by Colorlib Far far away,
               behind the word mountains, far from the countries Vokalia and
               Consonantia, there live the blind texts. Separated they live

@@ -1,19 +1,20 @@
 import React from 'react'
-
+ 
 export default function Pricing2() {
   return (
-    <>
+    <div className='container-fluid'>
+      <div className='row justify-content-center'>
      
-       <div className='text-center fw-light mb-5 pb-5'>
+       <div className='text-center fw-light mb-5'>
         <h2 className='card-title pt-5 mt-5 mb-2' data-aos="fade-up" data-aos-once="true">Advantage of using our products</h2>
         <p className='font-light' data-aos="fade-up" data-aos-once="true" data-aos-delay="100">Far from the countries Vokalia and Consonantia</p>
       </div>
-
-<div className='col-md-10 mx-auto mt-5 mb-5 pb-5'>
+ 
+<div className='col-md-10 mb-5 pb-5'>
       <div className='row ms-6 '>
         <div className='col-md-6 '>
           <div className='card card-body border-0 ' data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
-          <div className='row d-flex justify-content-center'>
+          <div className='row justify-content-center'>
                 <div className='col-md-1 mb-4'>
                 <div class="service-icon1 text-light rounded-4 fs-5 text-center ms-2" style={{ width: 40, height:40 }}>
                         <svg class="bi bi-app-indicator" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -22,17 +23,17 @@ export default function Pricing2() {
                         </svg>
                     </div>
                 </div>
-                <div className='col-md-11'> 
+                <div className='col-md-11'>
                         <h3 className='p2card-title ms-3'>Grow Your Business</h3>
                     <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
                         <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
-            </div> 
+            </div>
           </div>
         </div>
-
+ 
         <div className='col-md-6 '>
           <div className='card card-body border-0' data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
           <div className='row '>
@@ -44,17 +45,17 @@ export default function Pricing2() {
                     </svg>
                 </div>
                 </div>
-                <div className='col-md-11'> 
+                <div className='col-md-11'>
                         <h3 className='p2card-title ms-3'>Build Products</h3>
                     <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
                         <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
-            </div> 
+            </div>
           </div>
         </div>
-
+ 
         <div className='col-md-6 '>
           <div className='card card-body border-0' data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
           <div className='row '>
@@ -66,17 +67,17 @@ export default function Pricing2() {
                     </svg>
                     </div>
                 </div>
-                <div className='col-md-11'> 
+                <div className='col-md-11'>
                         <h3 className='p2card-title ms-3'>Success Every Day</h3>
                     <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
                         <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
-            </div> 
+            </div>
           </div>
         </div>
-
+ 
         <div className='col-md-6 '>
           <div className='card card-body border-0' data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
           <div className='row '>
@@ -87,21 +88,22 @@ export default function Pricing2() {
                     </svg>
                     </div>
                 </div>
-                <div className='col-md-11'> 
+                <div className='col-md-11'>
                         <h3 className='p2card-title ms-3'>Bring Ideas to Life</h3>
                     <p className='card-text font-light ms-3'>Far far away, behind the mountains, far from the countries Vokalia and
                         Consonantia</p>
                         <a href='#' className='ms-3'>Learn More</a>
                 </div>
                
-            </div> 
-            
+            </div>
+           
            
           </div>
         </div>
       </div>  
       </div>
-      </>
-    
+      </div>
+      </div>
   )
 }
+ 

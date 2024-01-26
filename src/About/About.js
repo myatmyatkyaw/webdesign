@@ -2,6 +2,7 @@ import React from 'react'
 import About1 from './about1.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import CountUp from 'react-countup';
 
 export default function About() {
   
@@ -31,8 +32,8 @@ export default function About() {
 
             <div className='row count-numbers'>
               <div className='col-md-6 mt-4' data-aos="fade-up" data-aos-once="true" data-aos-delay="700">
-                <h1 className='counter d-block card-title fw-light mb-2'>
-                <span data-number="59">59</span>
+                <h1 className='card-title fw-light mb-2'>
+                <span><CountUp end={59} duration={5} /></span>
                 <span>M</span>
                 </h1>
                
@@ -41,7 +42,7 @@ export default function About() {
 
               <div className='col-md-6 mt-4'>
              
-                <h1 className='card-title fw-light mb-2' data-aos="fade-up" data-aos-once="true" data-aos-delay="700">14</h1>
+                <h1 className='card-title fw-light mb-2' data-aos="fade-up" data-aos-once="true" data-aos-delay="700"><CountUp end={14} duration={5} /></h1>
                 <p className='font-light' data-aos="fade-up" data-aos-once="true" data-aos-delay="800">TEAM</p>
               </div>
             </div>

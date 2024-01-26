@@ -29,11 +29,11 @@ function App() {
      <Header />
      <Home />
      <Feature />
-    <Feature2/>
-    <Feature3/>
-     <Pricing />
-     <Pricing2/>
-     <Pricing3/>
+      <Feature2/>
+      <Feature3/>
+      <Pricing />
+      <Pricing2/>
+      <Pricing3/>
      <About />
      <About2/>
      <Contact />

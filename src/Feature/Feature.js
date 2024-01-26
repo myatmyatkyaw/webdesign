@@ -4,13 +4,15 @@ import Image4 from './wimg2.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
+
+
 export default function Feature() {
   return (
     <div id='features'>
       <div className='container-fluid col-md-10 mx-auto'>
       <div className='row mt-5 mb-5 pt-5 pb-5 d-flex justify-content-center'>
       <div className='col-md-5 '>
-            <div className='card-body pe-5'>
+            <div className=''>
                 <div className='text-primary' data-aos="fade-up" data-aos-once="true">DIGITAL SERVICES</div>
                 <h3 className='text-title mt-0 mb-3' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 Selling Digital Services
