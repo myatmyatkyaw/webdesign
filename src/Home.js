@@ -7,12 +7,11 @@ export default function home() {
     <>
       <div className='row m-5 pt-5'>
         <div className='col-md-5 mt-2 ps-5' >
-          <div className='card-body '>
+          <div className='card-body order-lg-1 order-2'>
+          <p className="textsize d-none d-sm-block py-3">Promote Your Products by Colorlib</p>
+           <p className="textsize_sm d-sm-none py-3">Promote Your Products by Colorlib</p>
 
-            <h1 className='home-title fw-bold' data-aos="fade-up">
-              Promote Your Products by Colorlib
-            </h1>
-            <div className='card-text mb-4 order-lg-1 order-2' data-aos="fade-up" data-aos-delay="100" >
+            <div className='card-text mb-4 ' data-aos="fade-up" data-aos-delay="100">
               Another cool free html css template by Colorlib Far far away,
               behind the word mountains, far from the countries Vokalia and
               Consonantia, there live the blind texts. Separated they live
@@ -24,7 +23,7 @@ export default function home() {
             </div>
           </div>
         </div>
-        <div className='col-md-7 ml-auto' data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+        <div className='col-md-7 ml-auto order-lg-2 order-1' data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
           <img
             src={Image1} // Replace with the actual path to your image
             alt="Image1"

@@ -19,10 +19,10 @@ export default function Pricing_three() {
                             <h1>Our Customers</h1>
                             <h1>Feedback</h1>
                             <div class="row mt-3">
-                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex m-3 rounded-2" style={{ height: 50 }} data-bs-target="#demo2" data-bs-slide="prev">
+                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex mt-3 ms-3 rounded-2 " style={{ height: 50 }} data-bs-target="#demo2" data-bs-slide="prev">
                                 <FontAwesomeIcon icon={faArrowLeft}/>
                                 </div>
-                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex m-3 rounded-2" style={{ height: 50 }} data-bs-target="#demo2" data-bs-slide="next">
+                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex mt-3 ms-2 rounded-2" style={{ height: 50 }} data-bs-target="#demo2" data-bs-slide="next">
                                 <FontAwesomeIcon icon={faArrowRight}/>
                                 </div>
  
@@ -120,10 +120,10 @@ export default function Pricing_three() {
                             <h1>Our Customers</h1>
                             <h1>Feedback</h1>
                             <div class="row mt-3">
-                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex m-3 rounded-2" style={{ height: 50 }} data-bs-target="#demo3" data-bs-slide="prev">
+                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex mt-3 ms-3 rounded-2" style={{ height: 50 }} data-bs-target="#demo3" data-bs-slide="prev">
                                 <FontAwesomeIcon icon={faArrowLeft}/>
                                 </div>
-                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex m-3 rounded-2" style={{ height: 50 }} data-bs-target="#demo3" data-bs-slide="next">
+                                <div class="col-2 bg-secondary align-items-center justify-content-center d-flex mt-3 ms-2 rounded-2" style={{ height: 50 }} data-bs-target="#demo3" data-bs-slide="next">
                                 <FontAwesomeIcon icon={faArrowRight}/>
                                 </div>
  

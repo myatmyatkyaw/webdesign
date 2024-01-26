@@ -27,16 +27,16 @@ function App() {
   return (
     <>
      <Header />
-     <Home />
-     <Feature />
+      <Home />
+      <Feature />
       <Feature2/>
       <Feature3/>
       <Pricing />
       <Pricing2/>
       <Pricing3/>
-     <About />
-     <About2/>
-     <Contact />
+      <About />
+      <About2/>
+      <Contact />
      <Footer />
     </>
   );

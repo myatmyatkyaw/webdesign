@@ -6,51 +6,55 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 
 
-export default function Feature() {
+export default function Feature_one() {
   return (
-    <div id='features'>
-      <div className='container-fluid col-md-10 mx-auto'>
-      <div className='row mt-5 mb-5 pt-5 pb-5 d-flex justify-content-center'>
-      <div className='col-md-5 '>
-            <div className=''>
-                <div className='text-primary' data-aos="fade-up" data-aos-once="true">DIGITAL SERVICES</div>
-                <h3 className='text-title mt-0 mb-3' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+    <>
+     {/* Feature One */}
+     <section id="feature_one">
+      <div className="container-fluid col-md-10 mx-auto">
+      <div className="row mb-5 pb-5">
+      <div className="col-md-5">
+            <div className="card-body" data-aos="fade-up">
+                <div className="text-primary py-3">DIGITAL SERVICES</div>
+                <h3 className="card-title mb-3 font_family">
                 Selling Digital Services
                 </h3>
-                <div className='card-text font-light' data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
-                Far far away, behind the word mountains, 
-                far from the countries Vokalia and Consonantia, 
-                there live the blind texts. Separated they live 
+                <div className="card-text font-light text-secondary" data-aos="fade-up" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">
+                Far far away, behind the word mountains,
+                far from the countries Vokalia and Consonantia,
+                there live the blind texts. Separated they live
                 in Bookmarksgrove right at the coast
-                </div> 
-                <div className='mt-3 font-light' data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
-                <p><FontAwesomeIcon icon={faCheck} className='text-primary me-2'/>There live the blind texts</p>
-                <p><FontAwesomeIcon icon={faCheck} className='text-primary me-2'/>Far far away behind the word</p>
                 </div>
-                <div className='fst-italic mb-3' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-                    “Separated they <span className='text-bg'>live in Bookmarksgrove 
-                        right at the coast of the Semantics,</span>
-                     a large language ocean. A small river named Duden 
+                <div className="mt-3 font-light" data-aos="fade-up" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
+                <span><FontAwesomeIcon icon={faCheck}/><span class="text-secondary px-3">There live the blind texts</span></span><br/>
+                <span><FontAwesomeIcon icon={faCheck}/><span class="text-secondary px-3">Far far away behind the word</span></span><br/><br/>
+                </div>
+                <div className="fst-italic mb-3" data-aos="fade-up" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">
+                    “Separated they live in Bookmarksgrove
+                    right at the coast of the Semantics,
+                     a large language ocean. A small river named Duden
                      flows by their place and supplies it with the necessary regelialia. ”
                 </div>
-                <div className='row'>
-                    <div className='col-md-2' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-                    <img src={Image3} alt='Image3' className='image-fluid rounded-circle' width={50} height={50}/>
+                <div className="row py-3">
+                    <div className="col-md-2" data-aos="fade-up" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">
+                    <img src={Image3} alt="Image3" className="image-fluid rounded-circle" width={50} height={50}/>
                     </div>
-                    <span className='col-md-10' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-                        <div className='font-small'>James Anderson</div>
-                        <div className='font-light font-small'>Facebook, Product Lead</div>
+                    <span className="col-md-10" data-aos="fade-up" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
+                        <div className="font-small">James Anderson</div>
+                        <p className="font-light text-secondary" style={{"font-size" : 10}}>Facebook, Product Lead</p>
                     </span>
                 </div>
             </div>
         </div>
-        <div className='col-md-7'>
-            <div className='card card-body w-80 shadow border-0' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-            <img src={Image4} alt='image4' className='image-fluid'/> 
+        <div className="col-md-7">
+            <div className="card card-body shadow border-0" data-aos="fade-up" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
+            <img src={Image4} alt="dashboard" className="image-fluid"/>
             </div>
         </div>
       </div>
       </div>
-    </div>
+      </section>
+    </>
   )
 }
+ 

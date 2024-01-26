@@ -13,7 +13,7 @@ export default function Footer() {
     <div className='container-fluid mx-auto'>
       <footer className='bg-light pb-5' >
        
-            <div className='row mt-5 ms-5 me-5 p-5'>
+            <div className='row mt-5 ms-5 me-5 pt-5 pb-5 ps-2 pe-2'>
                 <div className='col-md-5 col-sm-12'>
                     <h6 className='text-dark mb-4'>About Launch.</h6>
                     <p>Far far away, behind the word mountains, 
