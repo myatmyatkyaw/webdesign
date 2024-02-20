@@ -12,32 +12,55 @@ import Pricing2 from './Pricing/Pricing2';
 import Pricing3 from './Pricing/Pricing3';
 import About2 from './About/About2';
 
-import React, {useEffect} from 'react';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+
+import React from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-
+Aos.init();
 function App() {
-  useEffect(() => {
-    Aos.init({
-      duration: 1000, // Animation duration
-      offset: 200,    // Offset (in pixels) from the top of the document
-    });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({
+  //     duration: 1000, // Animation duration
+  //     offset: 200,    // Offset (in pixels) from the top of the document
+  //   });
+  // }, []);
   return (
     <>
+    <Router>
      <Header />
-      <Home />
+
+     <Routes>
+
+     <Route path="/" element={<Home />} />
+
+     <Route path="/feature" element={
+     <div>
       <Feature />
       <Feature2/>
       <Feature3/>
-      <Pricing />
+      </div>} />
+      
+      <Route path="/price" element={
+     <div>
+       <Pricing />
       <Pricing2/>
       <Pricing3/>
-      <About />
+      </div>} />
+     
+      <Route path="/about" element={
+     <div>
+        <About />
       <About2/>
-      <Contact />
+      </div>} />
+     
+      <Route path="/contact" element={<Contact />} />
+
+      </Routes>
+
      <Footer />
+     </Router>
     </>
   );
 }

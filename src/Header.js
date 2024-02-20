@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function header() {
   return (
@@ -12,7 +13,8 @@ export default function header() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active me-3" aria-current="page" href="#">Home</a>
+                {/* <a class="nav-link active me-3" aria-current="page" href="#">Home</a> */}
+                <Link to='/' className="nav-link active me-3">Home</Link>
               </li>
               <li className="nav-item">
                 <div className="dropdown">
@@ -37,20 +39,20 @@ export default function header() {
                   </button>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link me-3" aria-current="page" href="#features">Features</a>
+              <li className="nav-item">
+                <Link className="nav-link me-3" to="/feature">Features</Link>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link me-3" aria-current="page" href="#pricing">Pricing</a>
+              <li className="nav-item">
+                <Link className="nav-link me-3" to="/price">Pricing</Link>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link me-3" aria-current="page" href="#about">About</a>
+              <li className="nav-item">
+                <Link className="nav-link me-3" to="/about">About</Link>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link me-3" aria-current="page" href="#contact">Contact</a>
+              <li className="nav-item">
+                <Link className="nav-link me-3" to="/contact">Contact</Link>
               </li>
 
             </ul>
